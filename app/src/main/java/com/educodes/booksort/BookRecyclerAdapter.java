@@ -13,6 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.ArrayList;
 
 public class BookRecyclerAdapter extends RecyclerView.Adapter<BookRecyclerAdapter.MyViewHolder> {
@@ -52,14 +54,9 @@ public class BookRecyclerAdapter extends RecyclerView.Adapter<BookRecyclerAdapte
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
-        holder.bookPrice.setText(books.get(position).getBookName());
-        //holder.publishingHouse.setImageResource(books.get(position).getPublishingHouse());
-        holder.parent.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(context, "BASTIN KARDEŞ", Toast.LENGTH_SHORT).show();
-            }
-        });
+        holder.bookPrice.setText(books.get(position).getBookPrice());
+        Picasso.get().load(books.get(position).getPublishingHouse()).into(holder.publishingHouse);
+        
     }
     @Override
     public int getItemCount() {

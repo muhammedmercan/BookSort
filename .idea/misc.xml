@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/karam/AndroidStudioProjects/BookSort/app/src/main/res/layout/activity_book_list_item.xml" value="0.264" />
+        <entry key="..\:/Users/karam/AndroidStudioProjects/BookSort/app/src/main/res/layout/activity_book_list_item.xml" value="0.25" />
         <entry key="..\:/Users/karam/AndroidStudioProjects/BookSort/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/karam/AndroidStudioProjects/BookSort/app/src/main/res/layout/activity_result_price.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/karam/AndroidStudioProjects/BookSort/app/src/main/res/layout/activity_search_book.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

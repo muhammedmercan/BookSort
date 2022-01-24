@@ -1,31 +1,30 @@
 package com.educodes.booksort;
 
-import android.graphics.drawable.Drawable;
 
 public class Book {
 
     private String bookPrice;
-    private Drawable publishingHouse;
+    private String publishingHouse;
 
 
-    public Book(String bookPrice, Drawable publishingHouse) {
+    public Book(String bookPrice, String publishingHouse) {
         this.bookPrice = bookPrice;
         this.publishingHouse = publishingHouse;
     }
 
-    public String getBookName() {
+    public String getBookPrice() {
         return bookPrice;
     }
 
-    public void setBookName(String bookName) {
-        this.bookPrice = bookName;
+    public void setBookPrice(String bookPrice) {
+        this.bookPrice = bookPrice;
     }
 
-    public Drawable getPublishingHouse() {
+    public String getPublishingHouse() {
         return publishingHouse;
     }
 
-    public void setPublishingHouse(Drawable publishingHouse) {
+    public void setPublishingHouse(String publishingHouse) {
         this.publishingHouse = publishingHouse;
     }
 }
