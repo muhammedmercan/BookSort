@@ -43,13 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         } catch (IOException e) {
-            Toast.makeText(this, "deneme2", Toast.LENGTH_SHORT).show();
 
             e.printStackTrace();
         }
-
-
-
 
     }
 
